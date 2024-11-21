@@ -7,10 +7,6 @@ export default defineConfig({
   description: "A site that tracks the tools Kai is using",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
 
     sidebar: [
       {
