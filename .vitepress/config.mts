@@ -10,6 +10,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Intro",
+        items: [
+          { text: "About", link: "/intro" },
+        ]
+      },
+      {
         text: 'Categories',
         items: [
           // { text: 'Markdown Examples', link: '/markdown-examples' },
@@ -18,7 +24,8 @@ export default defineConfig({
           { text: 'Chrome Extensions', link: '/chrome-extensions' },
           { text: 'Efficiency', link: '/efficiency' },
         ]
-      }
+      },
+
     ],
 
     socialLinks: [
