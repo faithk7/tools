@@ -1,7 +1,7 @@
 <template>
     <div class="tool-item">
-        <h5>{{ name }}</h5>
-        <p>{{ description }}</p>
+        <h5><a :href="link" target="_blank" rel="noopener noreferrer">{{ name }}</a></h5>
+        <p class="tool-item-description">{{ description }}</p>
         <a v-if="githubLink" :href="githubLink" target="_blank" rel="noopener noreferrer">
             <img id="github-mark" src="../../github-mark.svg">
         </a>
@@ -20,6 +20,10 @@ export default {
             type: String,
             required: true,
         },
+        link: {
+            type: String,
+            required: true,
+        },
         githubLink: {
             type: String,
             default: null,
@@ -29,8 +33,13 @@ export default {
 </script>
 
 <style scoped>
+.tool-item-description {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
 .tool-item {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #github-mark {
