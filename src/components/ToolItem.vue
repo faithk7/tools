@@ -1,9 +1,9 @@
 <template>
     <div class="tool-item">
-        <h3>{{ name }}</h3>
+        <h5>{{ name }}</h5>
         <p>{{ description }}</p>
         <a v-if="githubLink" :href="githubLink" target="_blank" rel="noopener noreferrer">
-            View on GitHub
+            <img id="github-mark" src="../../github-mark.svg">
         </a>
     </div>
 </template>
@@ -28,8 +28,13 @@ export default {
 };
 </script>
 
-<!-- <style scoped>
+<style scoped>
 .tool-item {
-  /* Add your styles here */
+    margin-bottom: 1rem;
 }
-</style> -->
+
+#github-mark {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+</style>
