@@ -3,7 +3,7 @@
         <div class="tool-item-header">
             <h5><a :href="link" target="_blank" rel="noopener noreferrer">{{ name }}</a></h5>
             <a v-if="githubLink" :href="githubLink" target="_blank" rel="noopener noreferrer">
-                <img id="github-mark" src="../../github-mark.svg" alt="GitHub Link">
+                <img id="github-mark" src="../../assets/github-mark.svg" alt="GitHub Link">
             </a>
         </div>
         <p class="tool-item-description">{{ description }}</p>
