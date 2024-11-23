@@ -10,9 +10,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        // text: "Intro",
+        text: "Intro",
         items: [
-          { text: "About", link: "/intro" },
+          { text: "About", link: "/index" },
         ]
       },
       {
