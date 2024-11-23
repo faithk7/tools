@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Kai Qu's Tools",
+  title: "K7's Tools",
   description: "A site that tracks the tools Kai is using",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
