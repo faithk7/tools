@@ -10,12 +10,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Intro",
-        items: [
-          { text: "About", link: "/index" },
-        ]
-      },
-      {
         text: 'Categories',
         items: [
           // { text: 'Markdown Examples', link: '/markdown-examples' },
