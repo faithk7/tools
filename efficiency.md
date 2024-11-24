@@ -22,3 +22,11 @@
   description="Automation software for Mac, allowing you to bind a variety of shortcuts to applications."
   link="https://www.keyboardmaestro.com/main/"
 />
+
+<ToolItem
+  name="massCode"
+  description="An open-source software that allows you to save frequently used code snippets"
+  link="https://masscode.io/"
+  githubLink="https://github.com/massCodeIO/massCode"
+/>
+
