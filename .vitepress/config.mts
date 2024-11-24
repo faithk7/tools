@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/tools/',
   title: "K7's Tools",
-  description: "A site that tracks the tools Kai is using",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -12,8 +12,6 @@ export default defineConfig({
       {
         text: 'Categories',
         items: [
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Mac', link: '/mac' },
           { text: 'Chrome Extensions', link: '/chrome-extensions' },
           { text: 'Efficiency', link: '/efficiency' },
