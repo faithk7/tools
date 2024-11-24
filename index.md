@@ -1,3 +1,3 @@
-One who wishes to do good must first sharpen his tools.
+_"One who wishes to do good must first sharpen his tools."_
 
-This site contains a some of tools that I use daily.
+This site contains some of the tools currently used by me, continously updating.
